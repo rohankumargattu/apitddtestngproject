@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="CRUD Operations via Parameters1">
+  	<parameter name="uid" value="11"/>
+  	<parameter name="id" value="101"/>
+  	<parameter name="title" value="vadi tala 1"/>
+  	<parameter name="body" value="vadi toka 1"/>
+    <classes>
+      <class name="tests.TestNGCRUDViaParameters"/>
+    </classes>
+  </test>
+  <test name="CRUD Operations via Parameters2">
+  	<parameter name="uid" value="11"/>
+  	<parameter name="id" value="102"/>
+  	<parameter name="title" value="vadi tala 2"/>
+  	<parameter name="body" value="vadi toka 2"/>
+    <classes>
+      <class name="tests.TestNGCRUDViaParameters"/>
+    </classes>
+  </test>
+  <test name="CRUD Operations via Parameters3">
+  	<parameter name="uid" value="11"/>
+  	<parameter name="id" value="103"/>
+  	<parameter name="title" value="vadi tala 3"/>
+  	<parameter name="body" value="vadi toka 3"/>
+    <classes>
+      <class name="tests.TestNGCRUDViaParameters"/>
+    </classes>
+  </test>
+</suite>
