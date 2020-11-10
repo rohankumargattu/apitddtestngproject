@@ -37,40 +37,40 @@ public class TestNGCRUDViaDataProviderOnlyParameterizedMethod
 		
 		/*Object[][] data=new Object[6][4];
 		//1st row
-		data[0][0]=11;
-		data[0][1]=101;
-		data[0][2]="Priyanka";
-		data[0][3]="Eyyyy Optum Nadhee arthamaindha";
+		dparray[0][0]=11;
+		dparray[0][1]=101;
+		dparray[0][2]="Priyanka";
+		dparray[0][3]="Eyyyy Optum Nadhee arthamaindha";
 		
 		//2nd row
-		data[1][0]=11;
-		data[1][1]=102;
-		data[1][2]="Geeta";
-		data[1][3]="Eyyyy Dubai Nadhe arthamaindha";
+		dparray[1][0]=11;
+		dparray[1][1]=102;
+		dparray[1][2]="Geeta";
+		dparray[1][3]="Eyyyy Dubai Nadhe arthamaindha";
 		
 		//3rd row
-		data[2][0]=11;
-		data[2][1]=103;
-		data[2][2]="Shwetha";
-		data[2][3]="Paatttttt ani kodtha";
+		dparray[2][0]=11;
+		dparray[2][1]=103;
+		dparray[2][2]="Shwetha";
+		dparray[2][3]="Paatttttt ani kodtha";
 		
 		//4th row
-		data[3][0]=11;
-		data[3][1]=104;
-		data[3][2]="Riyaz";
-		data[3][3]="Why all are doing labalaba";
+		dparray[3][0]=11;
+		dparray[3][1]=104;
+		dparray[3][2]="Riyaz";
+		dparray[3][3]="Why all are doing labalaba";
 		
 		//5th row
-		data[4][0]=11;
-		data[4][1]=105;
-		data[4][2]="Ravi";
-		data[4][3]="Maa manager dimaak kharab chesthunadu";
+		dparray[4][0]=11;
+		dparray[4][1]=105;
+		dparray[4][2]="Ravi";
+		dparray[4][3]="Maa manager dimaak kharab chesthunadu";
 		
 		//6th row
-		data[5][0]=11;
-		data[5][1]=106;
-		data[5][2]="Vinod";
-		data[5][3]="click on save for pom.xml";*/
+		dparray[5][0]=11;
+		dparray[5][1]=106;
+		dparray[5][2]="Vinod";
+		dparray[5][3]="click on save for pom.xml";*/
 		
 		//Return Array
 		return(dparray);
