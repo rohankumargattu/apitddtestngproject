@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Nov 10 01:00:44 IST 2020</td>
+<td>Started on:</td><td>Tue Nov 10 20:19:29 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (57 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (89 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,24 +75,24 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.HardAssertInTestNG.method2()'><b>method2</b><br>Test class: tests.HardAssertInTestNG<br/>
-<a href="#Output-275310919" onClick='toggleBox("Output-275310919", this, "Show output", "Hide output");'>Show output</a>
+<td title='tests.SoftAssertInTestNGWithAssertAll.method2()'><b>method2</b><br>Test class: tests.SoftAssertInTestNGWithAssertAll<br/>
+<a href="#Output-1413378318" onClick='toggleBox("Output-1413378318", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-275310919" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-275310919">
+<a href="#Output-1413378318" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1413378318">
 Test Failed<br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at tests.HardAssertInTestNG.method2(HardAssertInTestNG.java:23)
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at tests.SoftAssertInTestNGWithAssertAll.method2(SoftAssertInTestNGWithAssertAll.java:30)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace275310919", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace275310919'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertTrue(Assert.java:45)
-	at org.testng.Assert.assertTrue(Assert.java:55)
-	at tests.HardAssertInTestNG.method2(HardAssertInTestNG.java:23)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1413378318", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1413378318'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at tests.SoftAssertInTestNGWithAssertAll.method2(SoftAssertInTestNGWithAssertAll.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -123,7 +123,7 @@ Test Failed<br/>
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>tests.HardAssertInTestNG@1563da5</td></tr>
+<td>tests.SoftAssertInTestNGWithAssertAll@1563da5</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -133,7 +133,7 @@ Test Failed<br/>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.HardAssertInTestNG.method1()'><b>method1</b><br>Test class: tests.HardAssertInTestNG<br/>
+<td title='tests.SoftAssertInTestNGWithAssertAll.method1()'><b>method1</b><br>Test class: tests.SoftAssertInTestNGWithAssertAll<br/>
 <a href="#Output-1159114532" onClick='toggleBox("Output-1159114532", this, "Show output", "Hide output");'>Show output</a>
 
 <a href="#Output-1159114532" onClick="toggleAllBoxes();">Show all outputs</a>
@@ -143,7 +143,7 @@ Test Passed<br/>
 </td>
 <td></td>
 <td>0</td>
-<td>tests.HardAssertInTestNG@1563da5</td></tr>
+<td>tests.SoftAssertInTestNGWithAssertAll@1563da5</td></tr>
 </table><p>
 </body>
 </html>
