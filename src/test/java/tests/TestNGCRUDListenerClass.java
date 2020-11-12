@@ -4,7 +4,6 @@ import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
