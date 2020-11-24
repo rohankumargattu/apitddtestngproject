@@ -1,145 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
+    <line>
+      <![CDATA[Post created succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Post created succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Post created succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Post created succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Post created succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Post created succesfully]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="170" started-at="2020-11-10T20:33:03 IST" finished-at="2020-11-10T20:33:03 IST">
+  <suite name="Suite" duration-ms="7904" started-at="2020-11-22T01:14:52 IST" finished-at="2020-11-22T01:15:00 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="170" started-at="2020-11-10T20:33:03 IST" finished-at="2020-11-10T20:33:03 IST">
-      <class name="tests.MultipleMethodsTakingDifferentDataFromOneDataProvider">
-        <test-method status="PASS" signature="addition(int, int)[pri:1, instance:tests.MultipleMethodsTakingDifferentDataFromOneDataProvider@17d677df]" name="addition" duration-ms="8" started-at="2020-11-10T20:33:03 IST" data-provider="testdata" finished-at="2020-11-10T20:33:03 IST">
+    <test name="Test" duration-ms="7904" started-at="2020-11-22T01:14:52 IST" finished-at="2020-11-22T01:15:00 IST">
+      <class name="tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod">
+        <test-method status="PASS" signature="reusableCode()[pri:0, instance:tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod@2d8f65a4]" name="reusableCode" is-config="true" duration-ms="499" started-at="2020-11-22T01:14:53 IST" finished-at="2020-11-22T01:14:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reusableCode -->
+        <test-method status="PASS" signature="createAPost(int, int, java.lang.String, java.lang.String)[pri:1, instance:tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod@2d8f65a4]" name="createAPost" duration-ms="2453" started-at="2020-11-22T01:14:53 IST" data-provider="testdata" finished-at="2020-11-22T01:14:55 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[12]]>
+                <![CDATA[11]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[45]]>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Priyanka]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Eyyyy Optum Nadhee arthamaindha]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Post created succesfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- addition -->
-        <test-method status="PASS" signature="addition(int, int)[pri:1, instance:tests.MultipleMethodsTakingDifferentDataFromOneDataProvider@17d677df]" name="addition" duration-ms="2" started-at="2020-11-10T20:33:03 IST" data-provider="testdata" finished-at="2020-11-10T20:33:03 IST">
+        </test-method> <!-- createAPost -->
+        <test-method status="PASS" signature="createAPost(int, int, java.lang.String, java.lang.String)[pri:1, instance:tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod@2d8f65a4]" name="createAPost" duration-ms="937" started-at="2020-11-22T01:14:55 IST" data-provider="testdata" finished-at="2020-11-22T01:14:56 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[65]]>
+                <![CDATA[11]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[35]]>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Geeta]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Eyyyy Dubai Nadhe arthamaindha]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Post created succesfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- addition -->
-        <test-method status="PASS" signature="addition(int, int)[pri:1, instance:tests.MultipleMethodsTakingDifferentDataFromOneDataProvider@17d677df]" name="addition" duration-ms="1" started-at="2020-11-10T20:33:03 IST" data-provider="testdata" finished-at="2020-11-10T20:33:03 IST">
+        </test-method> <!-- createAPost -->
+        <test-method status="PASS" signature="reusableCode()[pri:0, instance:tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod@2d8f65a4]" name="reusableCode" is-config="true" duration-ms="0" started-at="2020-11-22T01:14:55 IST" finished-at="2020-11-22T01:14:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reusableCode -->
+        <test-method status="PASS" signature="reusableCode()[pri:0, instance:tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod@2d8f65a4]" name="reusableCode" is-config="true" duration-ms="0" started-at="2020-11-22T01:14:56 IST" finished-at="2020-11-22T01:14:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reusableCode -->
+        <test-method status="PASS" signature="createAPost(int, int, java.lang.String, java.lang.String)[pri:1, instance:tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod@2d8f65a4]" name="createAPost" duration-ms="968" started-at="2020-11-22T01:14:56 IST" data-provider="testdata" finished-at="2020-11-22T01:14:57 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[68]]>
+                <![CDATA[11]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[15]]>
+                <![CDATA[103]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shwetha]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Paatttttt ani kodtha]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Post created succesfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- addition -->
-        <test-method status="PASS" signature="addition(int, int)[pri:1, instance:tests.MultipleMethodsTakingDifferentDataFromOneDataProvider@17d677df]" name="addition" duration-ms="2" started-at="2020-11-10T20:33:03 IST" data-provider="testdata" finished-at="2020-11-10T20:33:03 IST">
+        </test-method> <!-- createAPost -->
+        <test-method status="PASS" signature="reusableCode()[pri:0, instance:tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod@2d8f65a4]" name="reusableCode" is-config="true" duration-ms="0" started-at="2020-11-22T01:14:57 IST" finished-at="2020-11-22T01:14:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reusableCode -->
+        <test-method status="PASS" signature="createAPost(int, int, java.lang.String, java.lang.String)[pri:1, instance:tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod@2d8f65a4]" name="createAPost" duration-ms="1000" started-at="2020-11-22T01:14:57 IST" data-provider="testdata" finished-at="2020-11-22T01:14:58 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[95]]>
+                <![CDATA[11]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[26]]>
+                <![CDATA[104]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Riyaz]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Why all are doing labalaba]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Post created succesfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- addition -->
-        <test-method status="PASS" signature="concatination(java.lang.String, java.lang.String)[pri:2, instance:tests.MultipleMethodsTakingDifferentDataFromOneDataProvider@17d677df]" name="concatination" duration-ms="6" started-at="2020-11-10T20:33:03 IST" data-provider="testdata" finished-at="2020-11-10T20:33:03 IST">
+        </test-method> <!-- createAPost -->
+        <test-method status="PASS" signature="createAPost(int, int, java.lang.String, java.lang.String)[pri:1, instance:tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod@2d8f65a4]" name="createAPost" duration-ms="938" started-at="2020-11-22T01:14:58 IST" data-provider="testdata" finished-at="2020-11-22T01:14:59 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Gattu]]>
+                <![CDATA[11]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Rohan]]>
+                <![CDATA[105]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Maa manager dimaak kharab chesthunadu]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Post created succesfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- concatination -->
-        <test-method status="PASS" signature="concatination(java.lang.String, java.lang.String)[pri:2, instance:tests.MultipleMethodsTakingDifferentDataFromOneDataProvider@17d677df]" name="concatination" duration-ms="2" started-at="2020-11-10T20:33:03 IST" data-provider="testdata" finished-at="2020-11-10T20:33:03 IST">
+        </test-method> <!-- createAPost -->
+        <test-method status="PASS" signature="reusableCode()[pri:0, instance:tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod@2d8f65a4]" name="reusableCode" is-config="true" duration-ms="0" started-at="2020-11-22T01:14:58 IST" finished-at="2020-11-22T01:14:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reusableCode -->
+        <test-method status="PASS" signature="reusableCode()[pri:0, instance:tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod@2d8f65a4]" name="reusableCode" is-config="true" duration-ms="15" started-at="2020-11-22T01:14:59 IST" finished-at="2020-11-22T01:14:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reusableCode -->
+        <test-method status="PASS" signature="createAPost(int, int, java.lang.String, java.lang.String)[pri:1, instance:tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod@2d8f65a4]" name="createAPost" duration-ms="1015" started-at="2020-11-22T01:14:59 IST" data-provider="testdata" finished-at="2020-11-22T01:15:00 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Rohan]]>
+                <![CDATA[11]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Kumar]]>
+                <![CDATA[106]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vinod]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click on save for pom.xml]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Post created succesfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- concatination -->
-        <test-method status="PASS" signature="concatination(java.lang.String, java.lang.String)[pri:2, instance:tests.MultipleMethodsTakingDifferentDataFromOneDataProvider@17d677df]" name="concatination" duration-ms="4" started-at="2020-11-10T20:33:03 IST" data-provider="testdata" finished-at="2020-11-10T20:33:03 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Gattu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kumar]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- concatination -->
-        <test-method status="PASS" signature="concatination(java.lang.String, java.lang.String)[pri:2, instance:tests.MultipleMethodsTakingDifferentDataFromOneDataProvider@17d677df]" name="concatination" duration-ms="2" started-at="2020-11-10T20:33:03 IST" data-provider="testdata" finished-at="2020-11-10T20:33:03 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Gattu]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[RohanKumar]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- concatination -->
-        <test-method status="PASS" signature="nonDataProviderMethod()[pri:4, instance:tests.MultipleMethodsTakingDifferentDataFromOneDataProvider@17d677df]" name="nonDataProviderMethod" duration-ms="3" started-at="2020-11-10T20:33:03 IST" finished-at="2020-11-10T20:33:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- nonDataProviderMethod -->
-      </class> <!-- tests.MultipleMethodsTakingDifferentDataFromOneDataProvider -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- createAPost -->
+      </class> <!-- tests.TestNGCRUDViaDataProviderOnlyParameterizedMethod -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

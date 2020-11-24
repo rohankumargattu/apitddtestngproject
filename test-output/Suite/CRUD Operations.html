@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 08 18:15:51 IST 2020</td>
+<td>Started on:</td><td>Sun Nov 22 01:12:45 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>9 seconds (9372 ms)</td>
+<tr><td>Total time:</td><td>6 seconds (6936 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,20 +76,18 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='tests.TestNGCRUD.updateAPost()'><b>updateAPost</b><br>Test class: tests.TestNGCRUD<br/>
-<a href="#Output-1829780682" onClick='toggleBox("Output-1829780682", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-810262298" onClick='toggleBox("Output-810262298", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1829780682" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1829780682">
+<a href="#Output-810262298" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-810262298">
 Post not updated<br/>
 </div>
 </td>
 <td><div><pre>java.lang.AssertionError: null
 	at tests.TestNGCRUD.updateAPost(TestNGCRUD.java:117)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1829780682", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1829780682'><pre>java.lang.AssertionError: null
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace810262298", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace810262298'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.fail(Assert.java:106)
 	at tests.TestNGCRUD.updateAPost(TestNGCRUD.java:117)
@@ -105,9 +103,22 @@ Post not updated<br/>
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
 <td>tests.TestNGCRUD@6acdbdf5</td></tr>
@@ -121,10 +132,10 @@ Post not updated<br/>
 </tr>
 <tr>
 <td title='tests.TestNGCRUD.createAPost()'><b>createAPost</b><br>Test class: tests.TestNGCRUD<br/>
-<a href="#Output-1051057575" onClick='toggleBox("Output-1051057575", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-152848959" onClick='toggleBox("Output-152848959", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1051057575" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1051057575">
+<a href="#Output-152848959" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-152848959">
 Post created succesfully<br/>
 </div>
 </td>
@@ -133,34 +144,34 @@ Post created succesfully<br/>
 <td>tests.TestNGCRUD@6acdbdf5</td></tr>
 <tr>
 <td title='tests.TestNGCRUD.deleteAPost()'><b>deleteAPost</b><br>Test class: tests.TestNGCRUD<br/>
-<a href="#Output-2135057784" onClick='toggleBox("Output-2135057784", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1795468466" onClick='toggleBox("Output-1795468466", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2135057784" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2135057784">
+<a href="#Output-1795468466" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1795468466">
 Post deleted succesfully<br/>
 </div>
 </td>
 <td></td>
-<td>3</td>
+<td>0</td>
 <td>tests.TestNGCRUD@6acdbdf5</td></tr>
 <tr>
 <td title='tests.TestNGCRUD.getAllPosts()'><b>getAllPosts</b><br>Test class: tests.TestNGCRUD<br/>
-<a href="#Output-1616762063" onClick='toggleBox("Output-1616762063", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-2116299597" onClick='toggleBox("Output-2116299597", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1616762063" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1616762063">
+<a href="#Output-2116299597" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2116299597">
 All posts resource working correctly<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
+<td>2</td>
 <td>tests.TestNGCRUD@6acdbdf5</td></tr>
 <tr>
 <td title='tests.TestNGCRUD.getSpecificPost()'><b>getSpecificPost</b><br>Test class: tests.TestNGCRUD<br/>
-<a href="#Output-1460668784" onClick='toggleBox("Output-1460668784", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-291651850" onClick='toggleBox("Output-291651850", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1460668784" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1460668784">
+<a href="#Output-291651850" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-291651850">
 Specific post resource working correctly<br/>
 </div>
 </td>

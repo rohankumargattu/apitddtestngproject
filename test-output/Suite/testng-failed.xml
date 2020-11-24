@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="CRUD Operations(failed)">
     <classes>
-      <class name="tests.SoftAssertInTestNGWithAssertAll">
+      <class name="tests.TestNGCRUD">
         <methods>
-          <include name="method2"/>
+          <include name="updateAPost"/>
+          <include name="reusableCode"/>
         </methods>
-      </class> <!-- tests.SoftAssertInTestNGWithAssertAll -->
+      </class> <!-- tests.TestNGCRUD -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- CRUD Operations(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -103,7 +103,7 @@ public class TestNGCRUD
 		jo.put("body","second practice");
 		req.header("Content-Type","application/json");
 		req.body(jo.toString());
-		res=req.request(Method.PUT,"/posts/101");
+		res=req.request(Method.PUT,"/posts/10");
 		sc=res.getStatusCode();
 		if(sc==200)
 		{
